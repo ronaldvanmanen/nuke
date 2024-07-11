@@ -48,9 +48,7 @@ public static class ProcessExtensions
         process.AssertWaitForExit();
 
         if (process.ExitCode < 0)
-        {
             throw new ProcessException(process);
-        }
 
         return process;
     }

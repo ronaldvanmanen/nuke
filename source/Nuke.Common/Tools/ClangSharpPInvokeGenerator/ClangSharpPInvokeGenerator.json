@@ -41,13 +41,13 @@
             "help": "A file to parse and generate bindings for."
           },
           {
-            "name": "FileDirectory",
+            "name": "FileDirectories",
             "type": "List<string>",
             "format": "--file-directory {value}",
             "help": "The base path for files to parse."
           },
           {
-            "name": "HeaderFile",
+            "name": "HeaderFiles",
             "type": "List<string>",
             "format": "--headerFile {value}",
             "help": "A file which contains the header to prefix every generated file with."
